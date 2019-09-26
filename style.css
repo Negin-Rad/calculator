@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.input {
+    width: 20rem;
+    height: 10rem;
+    border-bottom: 1rem solid royalblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    color: darkblue;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.input__1 {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+}
+
+.input__2 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateY(-50%);
+}
+
+.input__3 {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translateY(-50%);
+}
+
+.btn {
+    width: 5rem;
+    height: 5rem;
+    background-color: royalblue;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.btn__p {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+}
+
+.btn__m {
+    position: absolute;
+    top: 40%;
+    left: 33%;
+}
+
+.btn__mu {
+    position: absolute;
+    top: 60%;
+    left: 33%;
+}
+
+.btn__d {
+    position: absolute;
+    top: 70%;
+    left: 33%;
+}
+
+.btn__r {
+    position: absolute;
+    top: 50%;
+    left: 57%;
+}
